@@ -1,0 +1,1 @@
+只在 rpki1 存在：ripe-ncc-ta.cer
