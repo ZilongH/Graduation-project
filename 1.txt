@@ -1,0 +1,97 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 201 (0xc9)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: CN = ripe-ncc-ta
+        Validity
+            Not Before: Nov 28 14:39:55 2017 GMT
+            Not After : Nov 28 14:39:55 2117 GMT
+        Subject: CN = ripe-ncc-ta
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:d1:44:58:48:6a:94:cf:69:b2:06:c3:b3:79:6d:
+                    63:43:a3:6c:c4:db:e5:2c:cc:a1:5a:49:ef:9e:5f:
+                    0d:88:10:ac:fd:3f:d2:d9:7b:8d:29:03:59:fb:00:
+                    59:c4:88:0f:3d:5d:a9:14:11:5e:40:0b:e8:1f:f5:
+                    8a:f3:71:f0:03:6e:95:da:c8:b0:9b:f3:18:da:72:
+                    99:f8:e9:70:fb:09:69:ce:56:75:a7:72:29:8f:67:
+                    8d:70:aa:e6:8a:df:01:c0:10:bc:c4:89:b3:b8:21:
+                    9a:57:48:e4:44:1d:06:67:48:68:1f:a3:25:d3:7b:
+                    a6:2e:9a:d1:b2:7e:af:d3:13:8f:d3:e9:7a:41:cd:
+                    59:1c:c1:55:15:bd:fc:e4:84:3b:15:04:13:71:52:
+                    31:ad:d7:8c:b2:8c:89:ab:d7:8c:90:4e:83:a1:c9:
+                    47:84:5f:cd:95:29:65:5e:e6:c0:49:0f:4a:51:6a:
+                    89:d3:e3:ad:dd:00:97:af:82:d7:10:23:1f:92:99:
+                    15:47:64:d9:4f:eb:f9:bf:ae:7c:6c:75:6c:e9:9c:
+                    51:0f:56:fa:52:4d:6e:40:a0:32:1d:46:e7:fe:d5:
+                    ef:3f:c9:6b:8c:08:9b:1b:35:6c:5c:34:f6:2f:4c:
+                    78:11:dc:7e:41:d8:b1:3e:03:a3:8b:78:01:33:22:
+                    f6:57
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                E8:55:2B:1F:D6:D1:A4:F7:E4:04:C6:D8:E5:68:0D:1E:BC:16:3F:C3
+            X509v3 Basic Constraints: critical
+                CA:TRUE
+            X509v3 Key Usage: critical
+                Certificate Sign, CRL Sign
+            Subject Information Access: 
+                RPKI Manifest - URI:rsync://rpki.ripe.net/repository/ripe-ncc-ta.mft
+                RPKI Notify - URI:https://rrdp.ripe.net/notification.xml
+                CA Repository - URI:rsync://rpki.ripe.net/repository/
+            X509v3 Certificate Policies: critical
+                Policy: ipAddr-asNumber
+            sbgp-ipAddrBlock: critical
+                IPv4:
+                  0.0.0.0/0
+                IPv6:
+                  ::/0
+
+            sbgp-autonomousSysNum: critical
+                Autonomous System Numbers:
+                  0-4294967295
+
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        15:80:98:eb:67:7c:05:a6:90:bc:62:4f:03:db:18:33:c1:27:
+        96:55:3d:af:b5:8a:bd:e8:24:10:b2:36:8a:6f:c9:db:79:5c:
+        f7:0f:07:12:dd:ae:d1:22:c7:af:ac:d5:46:a3:8d:e4:dc:01:
+        b2:9a:0d:64:8b:e0:16:26:3b:c7:bc:9f:ad:4b:30:9b:9f:9f:
+        97:e9:9e:c0:7d:84:df:da:0d:fb:c4:83:55:0c:7a:ee:d0:f4:
+        d0:51:aa:e0:48:c0:40:cf:f3:01:36:91:46:f0:a4:e1:b5:3e:
+        d6:6c:9a:ca:e3:e7:ff:96:fc:74:9b:c4:0e:95:89:b6:6b:5e:
+        e2:5d:2d:c0:19:02:7a:44:77:2a:f4:00:ec:72:a1:9d:ba:6c:
+        66:30:c0:e3:c0:40:f6:e9:b1:9a:61:d9:ab:bb:58:4d:22:9c:
+        05:ff:f8:d5:33:f7:91:8c:11:68:3c:72:85:97:1d:24:2d:df:
+        f2:a0:24:0d:9b:1d:64:5b:ec:40:37:1e:2e:c9:6c:62:fc:36:
+        20:49:5e:ce:ca:7a:be:0b:ad:0e:b9:c5:be:77:cb:48:86:46:
+        e5:87:cf:98:7e:b9:ae:90:97:6c:57:eb:e8:d8:be:f6:c9:ea:
+        dd:6e:c3:fd:c6:3a:af:85:9a:cb:29:fb:0b:66:36:0a:e1:27:
+        58:62:d8:62
+-----BEGIN CERTIFICATE-----
+MIIECjCCAvKgAwIBAgICAMkwDQYJKoZIhvcNAQELBQAwFjEUMBIGA1UEAxMLcmlw
+ZS1uY2MtdGEwIBcNMTcxMTI4MTQzOTU1WhgPMjExNzExMjgxNDM5NTVaMBYxFDAS
+BgNVBAMTC3JpcGUtbmNjLXRhMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC
+AQEA0URYSGqUz2myBsOzeW1jQ6NsxNvlLMyhWknvnl8NiBCs/T/S2XuNKQNZ+wBZ
+xIgPPV2pFBFeQAvoH/WK83HwA26V2siwm/MY2nKZ+Olw+wlpzlZ1p3Ipj2eNcKrm
+it8BwBC8xImzuCGaV0jkRB0GZ0hoH6Ml03umLprRsn6v0xOP0+l6Qc1ZHMFVFb38
+5IQ7FQQTcVIxrdeMsoyJq9eMkE6DoclHhF/NlSllXubASQ9KUWqJ0+Ot3QCXr4LX
+ECMfkpkVR2TZT+v5v658bHVs6ZxRD1b6Uk1uQKAyHUbn/tXvP8lrjAibGzVsXDT2
+L0x4Edx+QdixPgOji3gBMyL2VwIDAQABo4IBXjCCAVowHQYDVR0OBBYEFOhVKx/W
+0aT35ATG2OVoDR68Fj/DMA8GA1UdEwEB/wQFMAMBAf8wDgYDVR0PAQH/BAQDAgEG
+MIGxBggrBgEFBQcBCwSBpDCBoTA8BggrBgEFBQcwCoYwcnN5bmM6Ly9ycGtpLnJp
+cGUubmV0L3JlcG9zaXRvcnkvcmlwZS1uY2MtdGEubWZ0MDIGCCsGAQUFBzANhiZo
+dHRwczovL3JyZHAucmlwZS5uZXQvbm90aWZpY2F0aW9uLnhtbDAtBggrBgEFBQcw
+BYYhcnN5bmM6Ly9ycGtpLnJpcGUubmV0L3JlcG9zaXRvcnkvMBgGA1UdIAEB/wQO
+MAwwCgYIKwYBBQUHDgIwJwYIKwYBBQUHAQcBAf8EGDAWMAkEAgABMAMDAQAwCQQC
+AAIwAwMBADAhBggrBgEFBQcBCAEB/wQSMBCgDjAMMAoCAQACBQD/////MA0GCSqG
+SIb3DQEBCwUAA4IBAQAVgJjrZ3wFppC8Yk8D2xgzwSeWVT2vtYq96CQQsjaKb8nb
+eVz3DwcS3a7RIsevrNVGo43k3AGymg1ki+AWJjvHvJ+tSzCbn5+X6Z7AfYTf2g37
+xINVDHru0PTQUargSMBAz/MBNpFG8KThtT7WbJrK4+f/lvx0m8QOlYm2a17iXS3A
+GQJ6RHcq9ADscqGdumxmMMDjwED26bGaYdmru1hNIpwF//jVM/eRjBFoPHKFlx0k
+Ld/yoCQNmx1kW+xANx4uyWxi/DYgSV7Oynq+C60OucW+d8tIhkblh8+YfrmukJds
+V+vo2L72yerdbsP9xjqvhZrLKfsLZjYK4SdYYthi
+-----END CERTIFICATE-----
